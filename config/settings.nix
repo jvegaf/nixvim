@@ -56,7 +56,10 @@
       foldmethod = "manual";
 
       # Disable folding by default
-      foldenable = false;
+      foldenable = true;
+      foldcolumn = "1";
+      foldelevel = 99;
+      foldlevelstart = 99;
 
       # Wrap long lines at a character in 'breakat'
       linebreak = true;
@@ -86,12 +89,14 @@
       splitright = true;
 
       # Hide command line unless needed
-      cmdheight = 0;
+      cmdheight = 2;
 
       # Remove EOB
       fillchars = {
         eob = " ";
       };
+
+      undofile = true;
     };
   };
 }

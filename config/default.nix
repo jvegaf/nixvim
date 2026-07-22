@@ -20,7 +20,7 @@ _: {
     ./plugins/snippets/luasnip.nix
 
     # Editor plugins and configurations
-    ./plugins/editor/neo-tree.nix
+    ./plugins/editor/nvim-tree.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/undotree.nix
     ./plugins/editor/illuminate.nix

@@ -13,8 +13,8 @@
 
           offsets = [
             {
-              filetype = "neo-tree";
-              text = "Neo-tree";
+              filetype = "nvim-tree";
+              text = "NvimTree";
               highlight = "Directory";
               text_align = "left";
             }
@@ -63,7 +63,7 @@
 
     {
       mode = "n";
-      key = "<leader>bd";
+      key = "Q";
       action = "<cmd>bdelete<cr>";
       options = {
         desc = "Delete buffer";

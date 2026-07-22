@@ -1,6 +1,7 @@
 # nixfmt:disable
 {
   globals.mapleader = " ";
+  globals.maplocalleader = ",";
 
   keymaps = [
     {
