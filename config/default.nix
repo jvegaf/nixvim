@@ -51,6 +51,7 @@ _: {
     ./plugins/utils/mini.nix
     ./plugins/utils/markdown-preview.nix
     ./plugins/utils/obsidian.nix
+    ./plugins/utils/tmux-navigator.nix
     ./plugins/utils/toggleterm.nix
     ./plugins/utils/web-devicons.nix
   ];

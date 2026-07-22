@@ -500,6 +500,26 @@
         desc = "Previous Tab";
       };
     }
+      { action = "<cmd>write<CR>"; key = "W"; options.silent = true; }
+      { action = "<cmd>bdelete<CR>"; key = "q"; options.silent = true; }
+      { action = "<cmd>quit!<CR>"; key = "Q"; options.silent = true; }
+      { action = "V"; key = "vv"; }
+      { action = "<cmd>BufferLineCyclePrev<cr>"; key = "H"; }
+      { action = "<cmd>BufferLineCycleNext<cr>"; key = "L"; }
+      { action = ":nohlsearch<Bar>:echo<CR>"; key = "<ESC>"; }
+      { action = "gg<S-v>G"; key = "<C-a>"; }
+      { action = "<C-i>"; key = "<C-m>"; }
+      { action = "<gv"; key = "<"; mode = "v"; }
+      { action = ">gv"; key = ">"; mode = "v"; }
+      { action = "<ESC>"; key = "jk"; mode = "i"; }
+      { action = "<cmd>LazyGit<CR>"; key = "<leader>gg"; }
+      { action = "<esc>:URLOpenUnderCursor<cr>"; key = "gx"; }
+      { action = "<cmd>UrlView buffer<cr>"; key = "<leader>bu"; }
+      { action = "<cmd>checkhealth<cr>"; key = "<leader>zh"; }
+      { action = "<cmd>messages<cr>"; key = "<leader>zm"; }
+      { action = "<cmd>UrlView lazy<cr>"; key = "<leader>zu"; }
+      { action = "<cmd>NvimTreeFocus<cr>"; key = "<leader>e"; }
+      { action = "<cmd>TSJToggle<cr>"; key = "<leader>j"; }
   ];
 }
 # nixfmt:enable
