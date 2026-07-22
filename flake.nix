@@ -71,5 +71,9 @@
             default = with pkgs; mkShell { inherit (self'.checks.pre-commit-check) shellHook; };
           };
         };
+
+      flake = {
+        homeModules.nixvim = nixvim.homeModules.nixvim;
+      };
     };
 }
