@@ -9,6 +9,7 @@
         "document_symbols"
       ];
       add_blank_line_at_top = false;
+      close_if_last_window = true;
 
       filesystem = {
         bind_to_cwd = false;

@@ -1,3 +1,4 @@
+# nixfmt:disable
 {
   globals.mapleader = " ";
 
@@ -48,6 +49,15 @@
       options = {
         expr = true;
         silent = true;
+      };
+    }
+    {
+      mode = "n";
+      key = "W";
+      action = "<cmd>write<cr>";
+      options = {
+        desc = "Save Buffer";
+        remap = false;
       };
     }
     {
@@ -491,3 +501,4 @@
     }
   ];
 }
+# nixfmt:enable
