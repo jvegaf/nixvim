@@ -72,8 +72,8 @@
           };
         };
 
-      flake = {
-        homeModules.nixvim = nixvim.homeModules.nixvim;
-      };
+      # flake = {
+      #   homeModules.nixvim = nixvim.homeModules.nixvim;
+      # };
     };
 }
